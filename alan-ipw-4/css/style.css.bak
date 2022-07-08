@@ -27,6 +27,6 @@ footer{
 		height: calc(100vh - 164px);
 	}
     footer{
-		min-height: 100px;
+		min-hegiht: 100px;
 	}
 }		

@@ -1,6 +1,7 @@
-<?php
-	$planeta = "terra";
-
-	echo "Eu moro no planeta: $planeta <br>";
-	echo 'Eu moro no planeta: $planeta';
-?>
+ <?php
+  $a = "mundo!";
+  echo "Olá, $a"; 
+  echo 'Olá, $a';
+ 
+ 
+ ?>

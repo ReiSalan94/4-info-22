@@ -14,11 +14,11 @@
   <body>
     <header class="d-felx">
 	  <div class="container aling-items-center">
-	    <h1> Vitor - IPW 4 Mendes </h1>
+	    <h1> Bruno - IPW 4 Mendes </h1>
 		</div>
 	</header>
 	<section class="container">
-		<main class="col p-4">
+		<main class=" col p-4">
 		<?php 
 			if(isset($_GET['dir']) and isset($_GET['file'])){
 				echo '<a href="index.php"> Voltar</a><br><br>';
@@ -52,64 +52,12 @@
 		    <div class="p-0 modulo verde-escuro">
 			   <h3 class="p-2"> 2_funcoes</h3>	
 				<ul>
-				  
 				  <li>
 				     <a href="?dir=2_funcoes&file=1_funcoes">1_funcoes</a>
-				  </li>	
-					
-					<li>
-				    
-					<a href="?dir=2_funcoes&file=2_funcoesDate">2_funcoesDate</a>
-				  </li>	
-				  <li>
-				     <a href="?dir=2_funcoes&file=3_funcaopow">3_funcaopow</a>
-				  </li>	
-				  <li>
-				     <a href="?dir=2_funcoes&file=4_funcoesStrlen">4_funcoesStrlen</a>
-				  </li>	
-				  <li>
-				     <a href="?dir=2_funcoes&file=5_return">5_return</a>
-				  </li>
-				  <li>
-				     <a href="?dir=2_funcoes&file=7_exercicio1">7_exercicio1</a>
-				  </li>	
-				   <li>				  
-				     <a href="?dir=2_funcoes&file=8_exercicio2">8_exercicio2</a>
-				  </li>	
-		  		
-				</ul>   		
+				  </li>			  
+		  		</ul>   		
 		   </div>
 		  </div>
-		  
-		   <div class="row">
-		  <div class="col-md-4 p-2">
-		    <div class="p-0 modulo verde-escuro">
-			   <h3 class="p-2"> 3_array</h3>	
-				<ul>
-				  <li>
-				     <a href=
-					 "?dir=3_array&file=1_array">
-					 1_funcoes
-					 </a>
-				  </li>
-				  
-				  <li>
-				     <a href=
-					 "?dir=3_array&file=2_associativo">
-					 2_associativo
-					 </a>
-				  </li>
-
-					</ul>
-					</div>
-					</div>
-					
-		  
-		  
-		  
-		  
-		  
-		  
 		<?php } ?>
 		</main>
 		
